@@ -1,0 +1,47 @@
+.card2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 500px;
+    width: 50%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.secondmain .card2 .header .sora{
+    height: 100px;
+    width:100px;
+}
+.secondmain .card2 .header .imag{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.header{
+    margin-bottom: 150px;
+}
+.header h3{
+    color:#b79632;
+    text-align: center;
+    font-size: 2.7em;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.card2 p{
+    color:#9b978c;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 100px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+
+/* .secondmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+} */

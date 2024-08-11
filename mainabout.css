@@ -1,0 +1,249 @@
+/* main h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: "kanit",sans-serif;
+}
+main{
+    min-height: 100vh;
+} */
+
+/* .contaner{
+    margin-top: 100px;
+}
+.card{
+    height: 400px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.card img{
+    height: 400px;
+    width: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card1{
+    overflow: hidden;
+    transition: 0.1s;
+}
+#card1:hover img{
+height: 450px;
+width: 400px;
+}
+.who{
+    font-size: 35px;
+}
+.information{
+    height: 400px;
+    width:100%;
+    background-color: royalblue;
+    padding: 0px 60px;
+}
+#card2{
+    height:400px;
+    background-color: aqua;
+
+}
+#card2 .information p{
+    color:#9b978c;
+    font-size: 13px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px){
+.card p{
+    height: auto;
+}
+.contaner{
+    height: auto;
+}
+.shapes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+} */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+.main{
+    background-color: #181818;
+    /* height: 200vh; */
+    padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        /* gap: 20px; */
+    
+}
+.main h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: "kanit",sans-serif;
+    text-align: center;
+    color: #b79632;
+    
+}
+.aboutt{
+    padding-top: 30px;
+
+}
+.shapes{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:80%;
+    height: 50px;
+    margin: auto;
+    /* margin-top: 40px; */
+}
+.shape{
+    background-color: #b79632;
+    border-radius:10px 0px ;
+    height: 50px;
+    width: 150px;
+    transition: 1s;
+    border:  #b79632 2px solid;
+    /* text-align: center;  لما كنت عاملاها في  div  بدل الزرار مكنش بييجي في النص */
+}
+#shape3{
+    padding: 0px 5px;
+    width: 190px;
+}
+.shape p{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    padding-top: 10px;
+    text-align: center;
+}
+.shape:hover{
+    border-radius: 0px 10px ;
+    background-color: #181818;
+    border: #b79632 2px solid;
+}
+.descreption{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /* margin-top: 100px; */
+    }
+.image{
+width:400px;
+height: 450px;
+overflow: hidden;
+border-radius: 10px;
+margin-top: 30px;
+}
+.image img{
+width: 400px;
+height: 450px;
+transition: 0.5s;
+}
+.image:hover img{
+transform: scale(1.1);
+}
+.card{
+    background-color: aqua;
+    width: 50%;
+    margin-top: 30px;
+}
+.card .paragraph p{
+   /* margin-left: 40px; */
+    color:#9b978c;
+    font-size:18px;
+    line-height: 35px;
+    text-align: center;
+   font-family: sans-serif;
+}
+.card  h1{
+    margin-right:40px;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+.main2{
+    background-color: #161515;
+    min-height: 100vh;
+    padding: 50px 30px 0px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.main2 h1{
+    text-transform: uppercase;
+    font-family: "kanit",sans-serif;
+    text-align: center;
+    color: #b79632;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.hadeer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+}
+.card1{
+    box-shadow: 1px 1px 10px rgba(170, 147, 147, 0.589);
+    border-radius: 10px;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+    }
+    .card1 h3{
+        /* text-align: center; */
+        color: #b79632;
+        font-size: 34px;
+        font: optional;
+        text-transform: uppercase;
+        font-family: "kanit",sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .card1 p{
+        text-align: center;
+        color:#9b978c;
+        font-size:18px;
+        line-height: 35px;
+        width: 90%;
+    }
+.h31{
+position: relative;
+bottom: 45px;
+}
+.p1{
+    position: relative;
+    bottom: 70px;
+}

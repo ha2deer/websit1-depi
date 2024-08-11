@@ -1,0 +1,91 @@
+:root{
+    --color:red;
+    --bckground:yellow;
+    
+    }
+    
+    *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    nav{
+        width: 100%;
+        background-color: black;
+        padding:0px 50px;
+        border-radius: 2px;
+        height:60px;
+        z-index: 999;
+        position: fixed;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .logo{
+    
+        color:#b79632;
+    }
+    .logo:hover{
+        cursor: pointer;
+    }
+    .links a{
+        text-decoration: none;
+       padding: 0px 10px;
+       color:rgb(253, 253, 253);
+       /* height: 60px; */
+       display: inline-block;
+       line-height: 60px;
+       transition: 1s ;
+    }
+    .links{
+        padding-right: 30px;
+    }
+    .Contact{
+        background-color:#b79632;
+    }
+    .home:hover,
+    .about:hover,
+    .bussines:hover
+    {
+        background-color:#a3915b;
+    }
+    .ss{
+        height: 50px;
+        display:none;
+    
+    }
+    
+    
+    @media screen and (max-width: 900px){
+        nav{
+            position: relative;
+        }
+    /* .navsetting{
+        position: relative;
+    } */
+    
+    
+    
+        .links{
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     width: 300px;
+     height:calc(100vh - 50px);
+    position: absolute;
+    top:50px;
+    right:0px;
+     }
+    .navsetting:hover .links{
+        display: flex;
+      
+    }
+    .ss{
+        display: block;
+    }
+    }

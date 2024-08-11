@@ -1,0 +1,47 @@
+main{
+    padding:40px  80px ;
+    background-color: #181818;
+    min-height: 100vh;
+    width: 100%;
+}
+#mainknowmore h1{
+text-transform: uppercase;
+}
+.h2k{
+text-transform: uppercase;
+
+}
+
+#h6{
+    width: 80%;
+}
+
+@media screen and (max-width: 900px){
+    
+    #contk{
+        height:auto;
+
+    }
+    #cardk{
+        height:auto; 
+    }
+    .contaner{
+        flex-direction: column;
+        justify-content: center;
+        
+        height: auto;
+    }
+    .card{
+        margin-top: 5px;
+        height: auto;
+    }
+    .card p{
+        font-size: 15px;
+        width: 100%;
+      
+     
+    }
+    .card h2{
+        margin: 3px 0px 3px 0px;
+    }
+}

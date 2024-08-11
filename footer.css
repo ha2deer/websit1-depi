@@ -1,0 +1,159 @@
+footer{
+    background-color: #0c0c0c;
+    width: 100%;
+    padding:50px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer img{
+    height: 25px;
+}
+.divtop{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.firstdiv{
+    width: 350px;
+    text-align: center;
+    /* margin: 0px 50px 70px 0px; */
+}
+.firstdiv img{
+    height: 80px;
+}
+.firstdiv p{
+    color:white;
+    font-size: 17px;
+}
+.firstdiv,
+.thirdsiv,
+.seconddiv{
+    width:350px;
+    height:300px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.seconddiv{
+    margin-bottom: 70px;
+}
+
+.seconddiv h3{
+    color:#b79632;
+    font-size: 25px;
+  font-weight: 900;
+  font-family: sans-serif;
+  
+}
+
+.address,
+.kalam{
+    display: flex;
+   align-items: center;
+
+}
+.address p,
+.kalam p{
+    color:white;
+}
+.address{
+    padding: 20px 0px 0px 20px ;
+}
+.kalam{
+    margin-top: 10px;
+}
+.vaction img,
+.workingdays img,
+.address img,
+.kalam img {
+
+    margin-right: 10px;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    width: 60%;
+    margin-top: 10px;
+}
+
+.socialmedia img{
+    z-index: 2;
+}
+.socialmedia div{
+ width: 40px;
+ height: 40px;
+border-radius: 50%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.socialmedia div::before{
+    content: " ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.insta:hover::before{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+.facebook:hover::before{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(36, 36, 190);
+}
+.googlemap:hover::before{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(30, 196, 38);
+}
+.thirdsiv .h3{
+    color:#b79632;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.thirdsiv p{
+    color:white;
+}
+.esm{
+    color:white;
+
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.text{
+line-height: 30px;
+width: 60%;
+}
+
+.workingdays,
+.vaction{
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.divbottom{
+    width: 100%;
+    border-top: white 2px solid;
+    padding-top: 10px;
+}
+.divbottom p{
+    color: white;
+    text-align: center;
+
+}

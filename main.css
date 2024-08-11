@@ -1,0 +1,98 @@
+main{
+    
+    background-color:#181818;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+  align-items:center;
+  
+ 
+}
+.contenermain{
+  padding: 50px;
+    width: 100%;
+   /* height: 500px; */
+   display: flex;
+ align-items:center;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+
+}
+.cart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+.contan2{
+width:40%;
+margin-top: 40px;
+/* background-color: aqua; */
+}
+
+.contant1{
+    width: 40%;
+   
+/* background-color: rgb(119, 0, 255); */
+}
+.contant1 p{
+    width: 70%;
+    color:white;
+    font-size: larger;
+}
+.contant1  h1{
+    color:#b79632;
+}
+.contant1 .p2{
+    margin-top: 20px;
+}
+
+.cart .information .hinfo{
+    color:#b79632;
+    font-weight: 200;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+.cart .information .info{
+    
+    font-family: sans-serif;
+}
+.info{
+    color:white;
+    width:300px;
+    /* background-color: aqua; */
+}
+.cartimage{
+    height:5em;
+    
+}
+.information{
+    margin-left: 20px;
+    line-height: 20px;
+    width: 400px;
+  
+}
+.Bussines{
+    text-decoration: none;
+    color:#b79632;
+    font-size:larger ;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 1s;
+}
+.Bussines:hover{
+    color:white;
+    cursor: pointer;
+    
+}
+.sempols{
+    color: white;
+    font-size: larger;
+}
+/* @media screen and (max-width: 720px){
+
+    .firstsection{
+        width: 100%;
+    }
+    } */
